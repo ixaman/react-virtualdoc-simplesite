@@ -1,0 +1,35 @@
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1543333995-a78aea2eee50?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 780px;
+  width: 100%;
+  /* border: 1px solid red; */
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.title {
+  color: rgb(15, 199, 255);
+  font-weight: bold;
+  font-size: 55px;
+}
+.about-btn {
+  background-color: rgb(59, 59, 151);
+  outline: none;
+  border: none;
+  padding: 10px 24px;
+  color: white;
+}
+.info-size {
+  padding: 30px;
+  width: 400px;
+}
+.image-size {
+  padding: 30px;
+}
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

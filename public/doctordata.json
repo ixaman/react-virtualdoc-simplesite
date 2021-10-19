@@ -1,0 +1,65 @@
+[
+  {
+    "doc_id": "D01",
+    "name": "Dr. Ashraf Shovon",
+    "specialties": "Dermatology",
+    "Description": "Dermatologists are physicians who treat adult and pediatric patients with disorders of the skin, hair, nails, and adjacent mucous membranes.",
+    "image": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80"
+  },
+  {
+    "doc_id": "D02",
+    "name": "Dr. Asad Zaman",
+    "specialties": "Neurology",
+    "Description": "Neurology is the specialty within the medical field pertaining to nerves and the nervous system. Neurologists diagnose and treat diseases of the brain.",
+    "image": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "doc_id": "D03",
+    "name": "Dr. Annisa Toma",
+    "specialties": "Ophthalmology",
+    "Description": "Physicians specializing in ophthalmology develop comprehensive medical and surgical care of the eyes.Diagnose and treat vision problems.",
+    "image": "https://t4.ftcdn.net/jpg/03/17/85/49/360_F_317854905_2idSdvi2ds3yejmk8mhvxYr1OpdVTrSM.jpg"
+  },
+  {
+    "doc_id": "D04",
+    "name": "Dr. Ashikur Rahman",
+    "specialties": "Pathology",
+    "Description": "A physician specializing in pathology studies the causes and nature of diseases. Through microscopic examination and clinical lab tests.",
+    "image": "https://cdn.crello.com/api/media/small/218007348/stock-photo-happy-male-doctor-stethoscope-neck"
+  },
+  {
+    "doc_id": "D05",
+    "name": "Dr. Henry Paul",
+    "specialties": "Pediatrics",
+    "Description": "Physicians specializing in pediatrics work to diagnose and treat patients from infancy through adolescence.",
+    "image": "https://images.unsplash.com/photo-1622253694238-3b22139576c6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80"
+  },
+  {
+    "doc_id": "D06",
+    "name": "Dr. Ashis Chalchalani",
+    "specialties": "Psychiatry",
+    "Description": "Psychiatry are physicians who treat adult and pediatric patients with disorders of the skin, hair, nails, and adjacent mucous membranes.",
+    "image": "https://images.unsplash.com/photo-1618498082410-b4aa22193b38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+  },
+  {
+    "doc_id": "D07",
+    "name": "Dr. Carry Minati",
+    "specialties": "Surgery",
+    "Description": "Surgery are physicians who treat adult and pediatric patients with disorders of the skin, hair, nails, and adjacent mucous membranes.",
+    "image": "https://yt3.ggpht.com/ytc/AKedOLQ-TfQ3t1-kxvAZ1P7eg7eS78fYMHfgiuFwbbph=s900-c-k-c0x00ffffff-no-rj"
+  },
+  {
+    "doc_id": "D08",
+    "name": "Dr. Merry Bela",
+    "specialties": "Pathology",
+    "Description": "A physician specializing in pathology studies the causes and nature of diseases. Through microscopic examination.",
+    "image": "http://gomerblog.com/wp-content/uploads/2018/10/38591120_s.jpg"
+  },
+  {
+    "doc_id": "D09",
+    "name": "Dr. Al Hasan",
+    "specialties": "Preventive medicine",
+    "Description": "Physicians specializing in preventative medicine work to prevent disease by promoting patient health and well-being.",
+    "image": "https://media.istockphoto.com/photos/portrait-of-indian-doctor-picture-id1124684854?k=20&m=1124684854&s=612x612&w=0&h=giILm6W9_EGA3rpfdv0lPPZn1jX45oKiNUxHsMVWnI4="
+  }
+]

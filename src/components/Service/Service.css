@@ -1,0 +1,13 @@
+.img-div img {
+  width: 510px;
+  height: 310px;
+  margin-top: 3px;
+}
+.single-cart {
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 8px 15px;
+  overflow: hidden;
+}
+.single-cart p {
+  padding-left: 5px;
+  padding-right: 5px;
+}

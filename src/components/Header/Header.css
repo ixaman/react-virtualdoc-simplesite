@@ -1,0 +1,24 @@
+.items {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(218, 214, 214);
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+}
+.items:hover {
+  color: aqua;
+}
+.logo-text {
+  cursor: pointer;
+  color: rgb(15, 199, 255);
+  padding-top: 10px;
+}
+.logo-text a {
+  text-decoration: none;
+}
+.MenuBar-container {
+  background-color: rgb(33, 37, 41);
+}
