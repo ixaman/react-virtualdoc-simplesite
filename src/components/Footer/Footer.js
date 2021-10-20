@@ -1,5 +1,5 @@
 import {
-    faMapMarkedAlt, faPhoneVolume
+  faMapMarkedAlt, faPhoneVolume
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -12,16 +12,16 @@ const Footer = () => {
             <div className="row">
             <div className="col-md-6">
                 <div className="left-container text-start">
-                  <h1>Enjoy Education</h1>
+                  <h1>Virtual Doctor</h1>
                   <p className="mt-4 ">
                     <small>
-                      Learn new skills from enjoyeducation.com <br />
-                      We provide best online courses.
+                    Virtual doctor is your personal health advisor. <br /> 
+                      Get an appoinment anytime from anywhere. <br /> Chose your specialist and book now.
                     </small>
                   </p>
   
                   <p className="mt-5">
-                    <small>EnjoyEducation  <br /> ©All rights reserved.</small>
+                    <small>VirtualDoctor<br /> ©All rights reserved.</small>
                   </p>
                 </div>
               </div>

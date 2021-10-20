@@ -8,7 +8,7 @@ const Services = () => {
     const [doctors, setDoctors] = useState([]);
 
     useEffect( ()=> {
-        fetch('./doctordata.json')
+        fetch('https://ixaman.github.io/healthcarefakeapi/doctordata.json')
         .then(res => res.json())
         .then(data => setDoctors(data))
     }, [])

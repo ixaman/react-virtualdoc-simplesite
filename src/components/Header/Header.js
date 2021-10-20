@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import './Header.css';
 
 const Header = () => {
+  const {user, logout} = useAuth();
     return (
         <div className="MenuBar-container">
       <div className="container">
@@ -51,6 +53,17 @@ const Header = () => {
                 >
                   <li>About</li>
                 </NavLink>
+                <NavLink to="/login" 
+                className="items"
+                activeStyle={{
+                  fontWeight: "600",
+                  color: "aqua"
+                }}
+                >
+                  { user.email? <Link to="/home"><li onClick={logout}>Logout</li></Link>
+                  : <li>Login</li>}
+                </NavLink>
+                { user.email && <span style={{color: "white"}}>Hello, {user.email}</span>}
               </ul>
             </div>
           </div>

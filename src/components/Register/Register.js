@@ -3,20 +3,21 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import './Login.css';
 
 
-const Login = () => {
-    const { error, signInEmailPassword, signInWithGoogle } = useAuth();
+const Register = () => {
+
+    const { error, createUserWithEmail, signInWithGoogle } = useAuth();
 
     const [email,setEmail] = useState('');
     const [password,setPassword] = useState('');
 
-    const handleLogin = event => {
-        event.preventDefault()
-        signInEmailPassword(email,password)
-    }
 
+    const handleRegistration = event => {
+        event.preventDefault()
+       createUserWithEmail(email,password)
+        
+    }
 
     const handleEmailChange = event => {
         setEmail(event.target.value);
@@ -26,11 +27,11 @@ const Login = () => {
         setPassword(event.target.value);
     }
 
-
     return (
         <div>
             <Header></Header>
-            <h1 className="my-5">Please Login</h1>
+            <h2 className="my-5">Registration: Create an account</h2>
+
             <section className="vh-100 mt-5 pt-5">
                 <div className="container-fluid h-custom">
                     <div className="row d-flex justify-content-center align-items-center h-100">
@@ -38,7 +39,7 @@ const Login = () => {
                         <img src="https://mdbootstrap.com/img/Photos/new-templates/bootstrap-login-form/draw2.png" className="img-fluid"alt=""/>
                     </div>
                     <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                    <form onSubmit={handleLogin} >
+                        <form onSubmit={handleRegistration} >
                             <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                                 <p className="lead fw-normal mb-0 me-3">Sign in with</p>
                                 <button onClick={signInWithGoogle} type="button" className="btn btn-primary btn-floating mx-1">
@@ -68,18 +69,20 @@ const Login = () => {
                             </div>
 
                             <div className="text-center text-lg-start mt-4 pt-2">
-                                <input className="btn btn-primary" type="submit" value="Login" />
-                                <p className="small fw-bold mt-2 pt-1 mb-0">Doesn't have an account ? <Link to="/register" href="#!"
-                                    className="link-danger">Register</Link></p>
+                                <input className="btn btn-primary" type="submit" value="Register" />
+                                <p className="small fw-bold mt-2 pt-1 mb-0">Already have an account ? <Link to="/login" href="#!"
+                                    className="link-danger">Login</Link></p>
                             </div>
                         </form>
                     </div>
                     </div>
                 </div>
             </section>
+
+
             <Footer></Footer>
         </div>
     );
 };
 
-export default Login;
+export default Register;

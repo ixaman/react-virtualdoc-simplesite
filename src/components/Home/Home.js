@@ -7,14 +7,15 @@ import Service from '../Service/Service';
 
 const Home = () => {
     const [doctors] = useServices();
+    const newDoctors = doctors.slice(0,6)
     return (
         <div>
             <Header></Header>
             <Banner></Banner>
-            <h1 className="mt-5 text-primary">Our Specialists</h1>
+            <h1 className="mt-5 text-primary">Our Specialists</h1><br />
             <div className="service mb-5">
                 {
-                    doctors.map(doctor => <Service
+                    newDoctors.map(doctor => <Service
                         key = {doctor.doc_id}
                         doctor = {doctor}
                     ></Service> )

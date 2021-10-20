@@ -23,13 +23,12 @@
 }
 .info-size {
   padding: 30px;
-  width: 400px;
+  width: 400pxnp;
 }
 .image-size {
-  padding: 30px;
+  width: 75;
 }
-.info-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.text {
+  text-align: justify;
 }
