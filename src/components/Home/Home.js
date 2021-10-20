@@ -13,7 +13,7 @@ const Home = () => {
             <Header></Header>
             <Banner></Banner>
             <h1 className="mt-5 text-primary">Our Specialists</h1><br />
-            <div className="service mb-5">
+            <div className="service mb-5 row">
                 {
                     newDoctors.map(doctor => <Service
                         key = {doctor.doc_id}
